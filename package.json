@@ -1,0 +1,17 @@
+{
+  "name": "bookshelf",
+  "version": "1.0.0",
+  "description": "API untuk mengelola buku",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.1.0",
+    "nanoid": "^3.1.30"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.14.0",
+    "eslint": "^9.14.0"
+  }
+}
